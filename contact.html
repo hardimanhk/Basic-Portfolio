@@ -10,11 +10,11 @@
 <body>
 <div class="wrapper">
     <header>
-        <div class="nav-bar" id="contact-nav">
+        <div class="nav-bar" id="my-nav-bar">
         <h1 class="my-name">Hillary Hardiman</h1>
         <h2 class="nav"><a href="index.html">About</a></h2>
         <h2 class="nav nav-portfolio"><a href="portfolio.html">Portfolio</a></h2>
-        <h2 class="nav"><a href="contact.html">Contact</a></h2>
+        <h2 class="nav"><a href="contact.html" class="active">Contact</a></h2>
         </div>
     </header>
 
@@ -38,6 +38,17 @@
     <footer>
         <p class="copyright">Copyright &copy;</p>
     </footer>
+
+<script>
+    function myFunction() {
+    var x = document.getElementById("contact-nav");
+    if (x.className === "nav-bar") {
+        x.className += " responsive";
+    } else {
+        x.className = "nav-bar";
+    }
+}
+</script>
 
 </body>
 </html>
