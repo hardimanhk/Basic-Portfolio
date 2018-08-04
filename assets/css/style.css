@@ -95,6 +95,7 @@ header {
     margin: 0px auto;
     overflow: hidden;
     background-color: #ffffff;
+    z-index: 1;
 }
 
 .nav-bar .icon {
