@@ -16,7 +16,7 @@ h1 {
 
 p {
     padding: 0px 20px 0px 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .wrapper {
@@ -32,6 +32,7 @@ header {
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
     height: 60px;
+    font-family: 'Georgia', Times, serif;
 }
 
 #bio-image {
@@ -119,6 +120,7 @@ a:hover {
     padding-top: 10px;
     margin: 10px;
     float: right;
+    font-family: 'Georgia', Times, serif;
 }
 
 .nav-portfolio {
@@ -136,6 +138,7 @@ a:hover {
     margin-top: 0px;
     padding: 20px 20px 0px 20px;
     height: 40px;
+    font-family: 'Georgia', Times, serif;
 }
 
 .page-title {
@@ -256,6 +259,7 @@ textarea {
 .copyright {
     font-size: 12px;
     margin-top: 15px;
+    text-align: center;
 }
 
 footer {
