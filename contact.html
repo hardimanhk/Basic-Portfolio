@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Contact Hillary</title>
 </head>
@@ -12,9 +13,9 @@
     <header>
         <div class="nav-bar" id="my-nav-bar">
         <a href="#" class="my-name">Hillary Hardiman</a>
-        <a href="index.html" class="nav active">About</a>
+        <a href="index.html" class="nav">About</a>
         <a href="portfolio.html" class="nav nav-portfolio">Portfolio</a>
-        <a href="contact.html" class="nav">Contact</a>
+        <a href="contact.html" class="nav active">Contact</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars fa-3x"></i>
         </a>
@@ -47,7 +48,8 @@
     var x = document.getElementById("contact-nav");
     if (x.className === "nav-bar") {
         x.className += " responsive";
-    } else {
+    } 
+    else {
         x.className = "nav-bar";
     }
 }
